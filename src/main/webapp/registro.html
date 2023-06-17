@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet"
+	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+	integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+	crossorigin="anonymous" />
+
+<script src="js/lib.js"></script>
+<link rel="stylesheet" href="css/main.css" />
+<title>Libros</title>
+</head>
+<body>
+ 
+	<nav class="navbar navbar-dark bg-dark">
+		<a class="navbar-brand" href="#">Registro de Libros</a>
+				<a id="inicio-btn" href="home.html" class="btn btn-secondary mr-2">Inicio</a>
+	</nav>
+
+	<main class="p-4 d-flex justify-content-center">
+		<div class="card sizeDiv">
+			<div class="card-body">
+				<form id="form-register" class="pb-4">
+					<div class="form-group">
+						<label for="input-titulo">Titulo</label>
+						<input type="text" class="form-control" id="input-titulo" placeholder="Titulo" required>
+					</div>
+					<div class="form-genero">
+						<label for="input-nombre">Genero</label>
+						<input type="text" class="form-control" id="input-genero" placeholder="Genero" required>
+					</div>
+					<div class="form-autor">
+						<label for="input-apellidos">Autor</label>
+						<input type="text" class="form-control" id="input-autor" placeholder="Autor" required>
+					</div>
+					<div class="form-copias">
+						<label for="input-apellidos">Copias</label>
+						<input type="text" class="form-control" id="input-copias" placeholder="Copias" required>
+					</div>
+					<div class="form-group">
+						<div class="form-check">
+							<input type="checkbox" class="form-check-input" id="input-novedad">
+							<label class="form-check-label" for="input-novedad">Novedad</label>
+						</div>
+					</div>
+					<input type="submit" class="btn btn-primary" id="registrar-btn" value="Registrar Libro" />
+				</form>
+				
+			</div>
+		</div> 
+	</main>
+
+</body>
+</html>
